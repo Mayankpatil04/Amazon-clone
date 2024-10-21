@@ -1,0 +1,204 @@
+
+
+
+
+
+.header{
+    display:flex;
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    align-items: center;
+    width: auto;
+}
+
+.left{
+justify-content: center;
+display: flex;
+align-items: center;
+margin-left: 5px;
+}
+
+
+
+.logobutton{
+
+    width: 100px;
+  padding: 5px;
+
+}
+
+.logo{
+    height: 34px;
+    margin-top: 10px;
+}
+.logobutton:hover{
+    outline: 1px solid white; 
+}
+
+
+.Location{
+    height: 100%;
+    width: auto;
+    color: white;
+  font-size: 12px;
+     cursor: pointer;
+     padding: 8px 16px;
+  }
+
+  
+  
+  .Location:hover{
+      outline: 1px solid white;
+  }
+  
+.location-icon{
+    display: flex;
+    align-items: center;
+}
+
+
+.mid-section{
+    flex: 1;
+    display: flex;
+    height: 40px;
+border-radius: 5px;
+margin-left: 16px;
+
+}
+.mid-section:hover{
+    outline: 2px solid rgb(232,176,73);
+}
+
+.Searchbox::placeholder{
+    font-family: Roboto,Arial;
+    font-size: 14px;
+    padding-left: 5px;
+   
+}
+.Searchbox{
+  flex: 1;
+   font-size: 16px;
+   padding: 8px;
+
+}
+
+
+.Search-icon{
+    height: 100%;
+    
+    background-color: rgb(255, 203,105,0.8);
+    align-items: center;
+    border-radius: 0 5px 5px 0;
+    padding: 12px 8px;
+cursor: pointer;
+outline: none;
+}
+
+.searchlogo{
+   height: 25px;
+   align-items: center;
+   
+}
+
+.search-dropdown{
+  
+    width: 40px;
+    font-size: 16px;
+    background-color: rgb(206, 205, 205);
+   
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    padding: 8px;
+  
+}
+ 
+.search-dropdown:focus,
+.Searchbox:focus{
+    outline: none;
+}
+
+
+.right-section{
+   
+    display: flex;
+    align-items: center;
+ margin: 0 16px;
+}
+
+.language-option{
+display: flex;
+padding: 8px 8px;
+}
+
+.language-option:hover{
+    outline: 1px solid white;
+}
+
+.flag{
+    width: 20px;
+}
+
+
+.select-language{
+    color: white;
+    font-weight: bold;
+ background: transparent;
+ border: none;
+    font-size: 12px;
+}
+
+.select-language option,.select-account option {
+    color: black;
+}
+
+.account-option {
+    padding: 8px 8px;
+}
+
+.account-option:hover {
+    outline: 1px solid white;
+}
+
+.account-option, .hello {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.select-account{
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border: none;
+   font-weight: bold;
+   font-size: 12px;
+
+}
+
+
+.return{
+   padding: 8px 8px;
+   font-size: 12px;
+}
+
+.return:hover{
+    outline: 1px solid white;
+}
+
+
+.cart{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 8px 8px ;
+   
+}
+
+.cart-option:hover {
+    outline: 1px solid white;
+}
+
+.cart-logo i {
+    width: 20px;
+}

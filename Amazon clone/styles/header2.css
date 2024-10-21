@@ -1,0 +1,41 @@
+.nav-options{
+background-color: #232f3d;
+color: white;
+display:flex;
+align-items: center;
+height: 42px;
+justify-content: start;
+font-size: 14px;
+font-weight: 500;
+
+} 
+.nav-options *{
+    cursor: pointer;
+}
+
+.all-logo{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 8px;
+    margin-left: 10px;
+ 
+    
+}
+
+
+.all-logo:hover {
+    outline: 1px solid white;
+}
+
+.nav-options .options {
+    display: flex;
+}
+
+.nav-options .options p {
+    padding: 0.5rem;
+}
+
+.nav-options .options p:hover {
+    outline: 1px solid white;
+}

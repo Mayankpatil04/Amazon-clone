@@ -1,0 +1,90 @@
+.back-option {
+    text-decoration: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .7rem;
+    font-weight: bold;
+    color: white;
+    background-color: #37475A;
+}
+
+.footer-links {
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #232F3E;
+    color: white;
+}
+
+.footer-links ul {
+    margin-top: 3rem;
+}
+
+.footer-links ul p {
+    font-weight: bold;
+}
+
+.footer-links ul a {
+    display: block;
+    font-size: .7rem;
+    color: #dddddd;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.footer-links ul a:hover {
+    text-decoration: underline;
+}
+
+
+.country-info {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #232F3E;
+    color: white;
+    border-top: 0.5px solid #84868878;
+}
+
+.country-info .logo img {
+    width: 80px;
+}
+
+.country-info .options {
+    display: flex;
+    gap: .5rem;
+    margin-left: 3rem;
+}
+
+.country-info .options select {
+    font-size: .7rem;
+    text-decoration: none;
+    color: #cccccc;
+    background: transparent;
+    border: 1px solid #848688;
+    border-radius: 3px;
+    padding: .5rem;
+}
+
+.policies {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    font-size: .5rem;
+    color: white;
+    background-color: #131A22;
+}
+
+.pages a {
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+
+}
+
+
